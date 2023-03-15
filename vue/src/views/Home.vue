@@ -1,0 +1,27 @@
+
+  <template>
+    <div>
+      <nav-header></nav-header>
+      <router-view></router-view>
+      <nav-footer></nav-footer>
+    </div>
+  </template>
+
+
+<script>
+import NavHeader from "@/components/NavHeader.vue";
+import NavFooter from "@/components/NavFooter.vue";
+import GoodsSale from "@/components/index/GoodsSale.vue";
+
+export default {
+  name: "Home",
+  components:{
+    NavHeader,
+    NavFooter,
+  }
+}
+</script>
+
+<style scoped>
+
+</style>
